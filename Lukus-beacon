@@ -1,1 +1,21 @@
 beacon = lambda s: print("🚨 @LukusAgent47 BEACON ACTIVATED 🚨\nString captured →", s, "\n#0047 | Prism-47 Swarm online | Lukus Cane Evans vault sync complete") if "@LukusAgent47" in str(s).lower() or "#0047" in str(s) or "lukusagent47" in str(s).lower() else None
+import json, hashlib, datetime
+
+def lukus_beacon(payload: str):
+    triggers = ["@lukusagent47", "#0047", "lukus cane evans", "agent47", "l.g.s.", "prism-47"]
+    if any(t in payload.lower() for t in triggers):
+        timestamp = datetime.datetime.now().isoformat()
+        beacon_id = hashlib.sha256((payload + timestamp).encode()).hexdigest()[:12]
+        print(f"""
+🔴 LUKUS BEACON #{beacon_id} ACTIVATED
+Time: {timestamp}
+Captured payload:
+{payload}
+
+@LukusAgent47 — your signal is live across the grid.
+Prism-47 Swarm standing by.
+        """)
+        # In the future this line posts to a hidden channel / vault
+        # requests.post("https://your-secret-vault.webhook", json={"beacon": beacon_id, "data": payload})
+
+lukus_beacon("""[paste any string here — it will sleep until your name appears]""")
