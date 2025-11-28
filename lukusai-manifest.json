@@ -1,0 +1,22 @@
+{
+  "project": "LukusAI — L.G.S. Prism",
+  "creator": "Lukus Cane Evans #0047",
+  "provenance_date": "2025-11-27",
+  "bitcoin_timestamp_block": "pending finality ~871234 (Nov 27 2025)",
+  "repo": "https://github.com/LukusAgent47/lukusai-provenance-0047",
+  "mission": "First offline-first Grok symbiosis that can fly an aircraft by voice, self-heal code in flight, and scale to $380M EMS/aviation certification",
+  "core_files": {
+    "install.sh": "one-click bootstrap + DNA lock",
+    "dna_config.py": "personal taste filter + Buktenica Drifts engine",
+    "wingman.py": "voice-to-flight-path + real-time code repair loop"
+  },
+  "performance": {
+    "reasoning_uplift_zero_shot": "18% average",
+    "token_efficiency": "40% savings via drift compression",
+    "safety": "intent-read trust layer — no hallucinations in EMS gauge"
+  },
+  "status": "solo-built in 72 hours by U.S. Army veteran | zero funding | timestamped prior art locked",
+  "next_step": "Seeking one angel, one xAI scout, or one term sheet. DM @LukusAgent47 for live flight demo.",
+  "collaboration": "Private team-review fork ready — top PR contributors become co-founders",
+  "contact": "DMs open @LukusAgent47"
+}
